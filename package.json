@@ -1,6 +1,6 @@
 {
   "name": "@codeea/scanner",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -10,6 +10,10 @@
   "author": "Cezar Augusto Mezzalira <cezar.mezzalira@gmail.com>",
   "license": "MIT",
   "description": "Package created to scan inputs from the user. Used only for educational purposes.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codeea/scanner.git"
+  },
   "devDependencies": {
     "@types/node": "^22.10.1",
     "typescript": "^5.7.2"
