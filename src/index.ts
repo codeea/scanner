@@ -22,6 +22,12 @@ export default class Scanner {
     ).then((value) => parseFloat(value ?? ""));
   }
 
+  public async questionInt(questionText: string) {
+    return new Promise<string>((resolve) =>
+      this.readline.question(questionText, resolve)
+    ).then((value) => parseInt(value ?? ""));
+  }
+
   public close() {
     this.readline.close();
   }
